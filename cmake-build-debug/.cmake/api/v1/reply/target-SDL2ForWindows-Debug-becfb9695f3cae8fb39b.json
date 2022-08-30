@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "sdl.exe"
+			"path" : "SDL2ForWindows.exe"
 		},
 		{
-			"path" : "sdl.pdb"
+			"path" : "SDL2ForWindows.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -13,7 +13,10 @@
 	{
 		"commands" : 
 		[
-			"add_executable"
+			"add_executable",
+			"link_directories",
+			"target_link_libraries",
+			"include_directories"
 		],
 		"files" : 
 		[
@@ -27,7 +30,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 11,
 				"parent" : 0
 			}
 		]
@@ -38,39 +59,50 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g"
-				},
+					"fragment" : " -Wall -Werror -g"
+				}
+			],
+			"includes" : 
+			[
 				{
-					"fragment" : "-std=gnu99"
+					"backtrace" : 4,
+					"path" : "C:/Users/victo/CLionProjects/sdl/include"
 				}
 			],
 			"language" : "C",
-			"languageStandard" : 
-			{
-				"backtraces" : 
-				[
-					1
-				],
-				"standard" : "99"
-			},
 			"sourceIndexes" : 
 			[
 				0
 			]
 		}
 	],
-	"id" : "sdl::@6890427a1f51a3e7e1df",
+	"id" : "SDL2ForWindows::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
+				"fragment" : "-Wall -Werror -g",
 				"role" : "flags"
 			},
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-LC:\\Users\\victo\\CLionProjects\\sdl\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lSDL2main",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lSDL2",
+				"role" : "libraries"
 			},
 			{
 				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
@@ -79,8 +111,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "sdl",
-	"nameOnDisk" : "sdl.exe",
+	"name" : "SDL2ForWindows",
+	"nameOnDisk" : "SDL2ForWindows.exe",
 	"paths" : 
 	{
 		"build" : ".",
