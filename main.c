@@ -1,3 +1,11 @@
+/*
+ * OBJECTIVE  : 3D RAYTRACING
+ * AUTHOR     : VICTOR DALET
+ * FIRST-DATE : 11 10 2022
+ * LAST-DATE  : 11 10 2022
+ */
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "include/SDL.h"

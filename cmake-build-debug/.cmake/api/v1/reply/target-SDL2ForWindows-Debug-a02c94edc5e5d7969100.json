@@ -66,7 +66,7 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/victo/CLionProjects/sdl/include"
+					"path" : "C:/Users/dalet/CLionProjects/3D/include"
 				}
 			],
 			"language" : "C",
@@ -91,7 +91,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LC:\\Users\\victo\\CLionProjects\\sdl\\lib",
+				"fragment" : "-LC:\\Users\\dalet\\CLionProjects\\3D\\lib",
 				"role" : "libraryPath"
 			},
 			{

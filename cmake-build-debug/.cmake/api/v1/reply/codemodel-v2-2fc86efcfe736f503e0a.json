@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "SDL2ForWindows::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SDL2ForWindows-Debug-becfb9695f3cae8fb39b.json",
+					"jsonFile" : "target-SDL2ForWindows-Debug-a02c94edc5e5d7969100.json",
 					"name" : "SDL2ForWindows",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/victo/CLionProjects/sdl/cmake-build-debug",
-		"source" : "C:/Users/victo/CLionProjects/sdl"
+		"build" : "C:/Users/dalet/CLionProjects/3D/cmake-build-debug",
+		"source" : "C:/Users/dalet/CLionProjects/3D"
 	},
 	"version" : 
 	{
